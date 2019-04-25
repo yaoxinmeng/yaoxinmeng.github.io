@@ -1537,14 +1537,13 @@
 
 @media (max-width: 575.98px) {
 
-	.container,
 	#header.full-header .container,
 	.container-fullwidth {
 		width: 100% !important;
 		padding-left: 40px !important;
 		padding-right: 40px !important;
 	}
-
+	
 	#primary-menu-trigger { left: 20px; }
 
 	#top-cart { display: none; }
