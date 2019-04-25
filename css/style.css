@@ -578,7 +578,7 @@ span.middot {
 	background-repeat: no-repeat;
 	overflow: hidden;
 	will-change: transform;
-	margin: 0 15px;
+	margin: 0 10%;
 	border-radius: 5px;
 }
 
@@ -605,6 +605,17 @@ span.middot {
 
 #section-hobbies{
 	background-color: rgb(242, 163, 110) !important;
+}
+
+#section-about p,
+#section-about img {
+	float: left;
+	display: inline-block;
+}
+
+#section-about p {
+	position: relative;
+	padding-left: 40px;
 }
 
 /* ----------------------------------------------------------------
@@ -9701,7 +9712,7 @@ body:not(.device-touch) .clients-grid li a {
 .testi-meta span {
 	display: block;
 	font-weight: normal;
-	color: #999;
+	color: #FFF;
 	font-size: 12px;
 	text-transform: none;
 	padding-left: 10px;
