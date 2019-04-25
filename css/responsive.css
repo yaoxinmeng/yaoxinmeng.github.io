@@ -1578,7 +1578,7 @@
 
 	.portfolio-filter li { width: 50%; }
 
-	.portfolio:not(.portfolio-1) { margin: 0; }
+	.portfolio:not(.portfolio-1) { margin: 0 5%; }
 
 	.portfolio .portfolio-item {
 		width: 100%;

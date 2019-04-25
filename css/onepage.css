@@ -243,12 +243,6 @@ body.side-panel-left.side-push-panel.side-panel-open.stretched #header .containe
 	Team & Testimonials
 ---------------------------------------------------------------------------- */
 
-.team-title h4 {
-	font-weight: 600;
-	font-size: 17px;
-	letter-spacing: 2px;
-}
-
 .team-title span {
 	font-style: normal;
 	color: #999;

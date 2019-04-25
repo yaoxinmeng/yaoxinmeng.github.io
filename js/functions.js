@@ -1897,7 +1897,7 @@ var SEMICOLON = SEMICOLON || {};
 							var portfolioOverlayIconHeight = 0;
 						}
 						var portfolioOverlayMiddleAlign = ( portfolioOverlayHeight - portfolioOverlayDescHeight - portfolioOverlayIconHeight ) / 2
-						element.find('.portfolio-desc').css({ 'margin-top': portfolioOverlayMiddleAlign });
+						element.find('.portfolio-desc').css({ 'margin-top': 0});
 					}
 				});
 			}

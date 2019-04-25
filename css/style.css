@@ -601,6 +601,9 @@ span.middot {
 
 .section:hover .revealer-image { bottom: -50px; }
 
+#section-hobbies .section{
+	background-color: rgb(242, 163, 110) !important;
+}
 
 /* ----------------------------------------------------------------
 	Columns & Grids
@@ -3732,7 +3735,8 @@ body:not(.device-touch) .grid-container {
 
 .portfolio {
 	position: relative;
-	margin: 0 -12px -12px 0;
+	margin: 0 5%;
+	overflow: auto;
 }
 
 body:not(.device-touch) .portfolio {
@@ -3745,9 +3749,10 @@ body:not(.device-touch) .portfolio {
 	float: left;
 	position: relative;
 	width: 50%;
+	height: 28%;
 	min-width: 400px;
-	height: auto;
-	padding: 0 12px 12px 0;
+	padding: 10px;
+	display: inline-block;
 }
 
 .portfolio-notitle .portfolio-item,
@@ -3788,8 +3793,8 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-notitle .port
 }
 
 .portfolio-desc h3 {
-	margin: 0;
-	padding: 0;
+	margin: auto;
+	padding: 10px;
 	font-size: 19px;
 }
 
@@ -8519,17 +8524,20 @@ body:not(.device-touch) .on-hover.i-overlay {
 
 .social-icon {
 	margin: 0 5px 5px 0;
-	width: 40px;
+	width: 100%;
 	height: 40px;
 	font-size: 20px;
 	line-height: 38px !important;
 	color: #555;
 	text-shadow: none;
-	border: 1px solid #AAA;
-	border-radius: 3px;
 	overflow: hidden;
 }
 
+h3 .social-icon{
+	font-size: 22px;
+	font-weight: lighter;
+	color: #000;
+}
 
 /* Social Icons - Rounded
 -----------------------------------------------------------------*/
@@ -9831,7 +9839,7 @@ body:not(.device-touch) .clients-grid li a {
 
 .team-desc.team-desc-bg {
 	background-color: #FFF;
-	padding: 10px 0 30px;
+	padding: 10px 0;
 }
 
 .team .si-share {
@@ -9846,7 +9854,7 @@ body:not(.device-touch) .clients-grid li a {
 
 .team-title {
 	position: relative;
-	padding-top: 20px;
+	padding-top: 0;
 }
 
 .team-title h4 {
@@ -9854,8 +9862,8 @@ body:not(.device-touch) .clients-grid li a {
 	margin-bottom: 0;
 	font-size: 19px;
 	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 700;
+	letter-spacing: 2px;
+	font-weight: 600;
 }
 
 .team-title span {
@@ -9904,7 +9912,7 @@ body:not(.device-touch) .team-overlay {
 	float: none;
 	position: relative;
 	z-index: 3;
-	margin: 0 3px !important;
+	margin: 10px 0 !important;
 	display: inline-block;
 }
 
@@ -11312,6 +11320,10 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 	text-transform: none;
 }
 
+.emphasis-title h3 {
+	margin: 20px 20px;
+}
+
 .heading-block h1 { font-size: 32px; }
 
 .heading-block h2 { font-size: 30px; }
@@ -12104,12 +12116,12 @@ button.toast-close-button {
 .footer-widgets-wrap .col_five_sixth { margin-bottom: 0; }
 
 #contacts {
-	padding: 50px 0;
+	padding: 30px 0;
 	background-color: #f2a36e;
 }
 
 #contact-info{
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 1.8;
 	font-weight: lighter;
 	letter-spacing: 0.15em;
