@@ -8536,10 +8536,8 @@ body:not(.device-touch) .on-hover.i-overlay {
 
 
 .social-icon {
-	margin: 0 5px 5px 0;
-	width: 100%;
-	height: 40px;
-	font-size: 20px;
+	margin: 0 auto;
+	width: 90%;
 	line-height: 38px !important;
 	color: #555;
 	text-shadow: none;
@@ -9908,6 +9906,10 @@ body:not(.device-touch) .clients-grid li a {
 	text-align: center;
 }
 
+.team-overlay h3 {
+	height: 100%;
+}
+
 body:not(.device-touch) .team-overlay {
 	-webkit-transition: opacity .3s ease;
 	-o-transition: opacity .3s ease;
@@ -9918,15 +9920,16 @@ body:not(.device-touch) .team-overlay {
 	content: '';
 	z-index: auto;
 	background-color: #FFF;
-	opacity: 0.75;
+	opacity: 0.85;
 }
 
 .team-overlay .social-icon {
 	float: none;
 	position: relative;
 	z-index: 3;
-	margin: 10px 0 !important;
+	margin: 30px 0 !important;
 	display: inline-block;
+	vertical-align: middle;
 }
 
 .team:hover .team-overlay { opacity: 1; }

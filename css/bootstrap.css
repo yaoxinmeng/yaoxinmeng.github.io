@@ -547,8 +547,7 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 10px 30px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1026,8 +1025,8 @@ pre code {
   }
   .col-md-4 {
     -ms-flex: 0 0 33.333333%;
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
   }
   .col-md-5 {
     -ms-flex: 0 0 41.666667%;
