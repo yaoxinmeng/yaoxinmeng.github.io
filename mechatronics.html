@@ -64,7 +64,7 @@
 							<li><a href="index.html#section-works"><div>Works</div></a></li>
 							<li><a href="index.html#section-hobbies"><div>Hobbies</div></a></li>
 							<li><a href="index.html#section-about"><div>About</div></a></li>
-							<li><a href="index.html#footer"><div>Contact</div></a></li>
+							<li><a href="#" data-href="#footer"><div>Contact</div></a></li>
 						</ul>
 
 					</nav><!-- #primary-menu end -->
@@ -75,15 +75,80 @@
 
 		</header><!-- #header end -->
 		
+		<!-- Page Title
+		============================================= -->
+		<section id="page-title">
+
+			<div class="container clearfix">
+				<h1>Mechatronics</h1>
+				<div id="portfolio-navigation">
+					<a href="#"><i class="icon-angle-left"></i></a>
+					<a href="#"><i class="icon-line-grid"></i></a>
+					<a href="#"><i class="icon-angle-right"></i></a>
+				</div>
+			</div>
+
+		</section><!-- #page-title end -->
+
 		<!-- Content
 		============================================= -->
 		<section id="content">
-
 			<div class="content-wrap nopadding">
+
+				<div class="container clearfix">
+
+					<!-- Portfolio Single Image
+					============================================= -->
+					<div class="col_full portfolio-single-image">
+						<a href="#"><img src="images/projects/mechatronics.jpg" alt="Mechatronics"></a>
+					</div><!-- .portfolio-single-image end -->
+
+					<div class="col_one_third nobottommargin">
+
+						<!-- Portfolio Single - Meta
+						============================================= -->
+						<div class="card events-meta">
+							<div class="card-body">
+								<ul class="portfolio-meta nobottommargin">
+									<li><span><i class="icon-user"></i>Created by:</span> John Doe</li>
+									<li><span><i class="icon-calendar3"></i>Completed on:</span> 17th March 2014</li>
+									<li><span><i class="icon-lightbulb"></i>Skills:</span> HTML5 / PHP / CSS3</li>
+									<li><span><i class="icon-link"></i>Client:</span> Google</li>
+									<li><span><i class="icon-link"></i>Client:</span> Google</li>
+								</ul>
+							</div>
+						</div>
+						<!-- Portfolio Single - Meta End -->
+
+					</div>
+
+					<!-- Portfolio Single Content
+					============================================= -->
+					<div class="col_two_third portfolio-single-content col_last nobottommargin">
+
+						<!-- Portfolio Single - Description
+						============================================= -->
+						<div class="fancy-title title-dotted-border">
+							<h2>Project Info:</h2>
+						</div>
+
+						<div class="col_half nobottommargin">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, labore deserunt ex cupiditate est blanditiis dignissimos nesciunt doloremque laboriosam ullam necessitatibus voluptatum tempora itaque quia porro voluptates quo excepturi veritatis!</p>
+						</div>
+
+						<div class="col_half col_last nobottommargin">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, sed.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, soluta explicabo sunt aliquam officiis autem.</p>
+						</div>
+						<!-- Portfolio Single - Description End -->
+
+					</div><!-- .portfolio-single-content end -->
+				</div>
+
 				<div id="projects" class="page-section notoppadding">
 					<div class="section nomargin">
 						<div class="container clearfix">
-							<h2 class="center divcenter nobottommargin t300 ls1">About Me</h2>
+							<h2 class="center divcenter nobottommargin t300 ls1">Mechatronics</h2>
 						</div>
 					</div>
 
@@ -97,10 +162,9 @@
 							<p class="lead bottommargin" style="max-width: 800px;"><strong>Hi, I’m Xin Meng. I enjoy designing and making stuff.</strong> <br><br>I am currently enrolled in the Renaissance Engineering Program at Nanyang Technological University. I also am receiving a certificate in design from the Segal Design Institute at Northwestern University. As a mechanical engineer, I found my passion in mechatronics and I embrace the technical challenges involved. <br><br>In my free time, I play video games, Chinese flute, Chinese chess, badminton and table tennis.</p>
 						</div>
 					</div>
-
 				</div>
-			</div>
 
+			</div>
 		</section><!-- #content end -->
 
 		<!-- Footer
@@ -128,48 +192,11 @@
 
 	<!-- Google Map JavaScripts
 	============================================= -->
-	<script src="https://maps.google.com/maps/api/js?key=AIzaSyCzkxzbEni5vR_Ugt1De8gBzrLX3236bnA"></script>
 	<script src="js/jquery.gmap.js"></script>
 
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
-
-	<script>
-
-		jQuery(window).on( 'load', function(){
-
-			// Google Map
-			jQuery('#headquarters-map').gMap({
-				address: 'Melbourne, Australia',
-				maptype: 'ROADMAP',
-				zoom: 14,
-				markers: [
-					{
-						address: "Melbourne, Australia",
-						html: "Melbourne, Australia",
-						icon: {
-							image: "images/icons/map-icon-red.png",
-							iconsize: [32, 32],
-							iconanchor: [14,44]
-						}
-					}
-				],
-				doubleclickzoom: false,
-				controls: {
-					panControl: false,
-					zoomControl: false,
-					mapTypeControl: false,
-					scaleControl: false,
-					streetViewControl: false,
-					overviewMapControl: false
-				},
-				styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"administrative","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"labels.text","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":"-100"},{"lightness":"30"}]},{"featureType":"administrative.neighborhood","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"simplified"},{"gamma":"0.00"},{"lightness":"74"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"lightness":"3"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
-			});
-
-		});
-
-	</script>
 
 </body>
 </html>
