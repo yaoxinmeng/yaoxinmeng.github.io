@@ -172,7 +172,7 @@ a {
 	color: #ffffff;
 }
 
-a:hover { color: #222; }
+a:hover { color: #767171; }
 
 a img { border: none; }
 
@@ -5374,7 +5374,7 @@ body:not(.device-touch) .entry-link {
 
 .more-link {
 	display: inline-block;
-	border-bottom: 1px solid #1ABC9C;
+	border-bottom: 1px solid #843c0c;
 	padding: 0 2px;
 	font-family: 'Crete Round', serif;
 	font-style: italic;
