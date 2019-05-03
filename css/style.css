@@ -3371,9 +3371,9 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	margin: 0;
 	line-height: 1;
 	font-weight: 600;
-	letter-spacing: 1px;
+	letter-spacing: 1.5px;
 	color: #333;
-	font-size: 28px;
+	font-size: 35px;
 	text-transform: uppercase;
 }
 
@@ -11431,7 +11431,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 
 .fancy-title {
 	position: relative;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 .fancy-title h1,
