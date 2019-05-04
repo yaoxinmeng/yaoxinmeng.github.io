@@ -582,8 +582,14 @@ span.middot {
 	background-repeat: no-repeat;
 	overflow: hidden;
 	will-change: transform;
-	margin: 0 10%;
+	margin: 0 5%;
 	border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+	.parallax{
+		margin: 0 16%;
+	}
 }
 
 .mobile-parallax,
@@ -9707,8 +9713,6 @@ body:not(.device-touch) .clients-grid li a {
 	font-weight: bold;
 	text-transform: uppercase;
 }
-
-.testi-meta:before { content: '\2013'; }
 
 .testi-meta span {
 	display: block;
