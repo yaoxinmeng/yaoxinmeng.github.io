@@ -9934,9 +9934,11 @@ body:not(.device-touch) .team-overlay {
 	float: none;
 	position: relative;
 	z-index: 3;
-	margin: 30px 0 !important;
 	display: inline-block;
 	vertical-align: middle;
+	top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .team:hover .team-overlay { opacity: 1; }
