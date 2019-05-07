@@ -197,10 +197,10 @@ h4,
 h5,
 h6 {
 	color: #444;
-	font-weight: 600;
+	font-weight: 200;
 	line-height: 1.5;
-	margin: 0 0 30px 0;
-	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	font-family: 'Segoe UI', sans-serif;
 }
 
 h5,
@@ -633,7 +633,7 @@ span.middot {
 -----------------------------------------------------------------*/
 
 
-.col_full { width: 100%; }
+.col_full { width: 80%; }
 .col_half,
 .postcontent.bothsidebar { width: 48%; }
 .col_one_third { width: 30.63%; }
@@ -678,7 +678,7 @@ body.stretched .container-fullwidth {
 .col_full {
 	clear: both;
 	float: none;
-	margin-right: 0;
+	margin: 0 auto 50px auto;
 }
 
 .col_last {
@@ -8547,6 +8547,7 @@ body:not(.device-touch) .on-hover.i-overlay {
 .social-icon {
 	margin: 0 auto;
 	width: 90%;
+	height: inherit;
 	line-height: 38px !important;
 	color: #555;
 	text-shadow: none;
@@ -9913,10 +9914,6 @@ body:not(.device-touch) .clients-grid li a {
 	text-align: center;
 }
 
-.team-overlay h3 {
-	height: 100%;
-}
-
 body:not(.device-touch) .team-overlay {
 	-webkit-transition: opacity .3s ease;
 	-o-transition: opacity .3s ease;
@@ -9936,6 +9933,11 @@ body:not(.device-touch) .team-overlay {
 	z-index: 3;
 	display: inline-block;
 	vertical-align: middle;
+}
+
+.social-icon h3 {
+	position: relative;
+	display: inline-block;
 	top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
