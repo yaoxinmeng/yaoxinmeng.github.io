@@ -118,6 +118,13 @@ body,
 /* ----------------------------------------------------------------
 	Basic
 -----------------------------------------------------------------*/
+.color-darkred { color: #843c0c; }
+
+.color-lightred { color: #fdf1e9; }
+
+.color-orange { color: #f2a36e; }
+
+.color-gray { color: #767171; }
 
 dl, dt, dd, ol, ul, li {
 	margin: 0;
