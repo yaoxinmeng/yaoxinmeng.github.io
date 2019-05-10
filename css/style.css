@@ -1089,12 +1089,13 @@ body.stretched #header.full-header .container {
 
 #logo a p{
 	font-family: 'Segoe UI', sans-serif;
-	font-weight: lighter;
-	font-size: 24px;
+	font-weight: 420;
+	font-size: 26px;
 	padding: 18px 20px;
-	color: #000;
+	color: #843c0c;
 	line-height: normal;
-	letter-spacing: 0.07em;
+	letter-spacing: 0.12em;
+	margin-bottom: 0;
 }
 
 	
