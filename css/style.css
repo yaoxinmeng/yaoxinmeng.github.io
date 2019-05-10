@@ -678,7 +678,6 @@ body.stretched .container-fullwidth {
 .col_full {
 	clear: both;
 	float: none;
-	margin: 0 auto 50px auto;
 }
 
 .col_last {
@@ -3811,13 +3810,15 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-notitle .port
 
 .portfolio-desc {
 	z-index: 3;
-	padding: 15px 5px 10px;
+	padding: 0;
 }
 
 .portfolio-desc h3 {
 	margin: auto;
-	padding: 10px;
+	padding: 10px 0;
 	font-size: 19px;
+	letter-spacing: 1.5px;
+	font-weight: 350;
 }
 
 .portfolio-desc h3 a { color: #222; }
@@ -4507,22 +4508,24 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-overlay {
 }
 
 .portfolio-item:hover .portfolio-overlay,
-.iportfolio:hover .portfolio-overlay { opacity: 1; }
+.iportfolio:hover .portfolio-overlay { opacity: 0.85; }
 
 .portfolio-overlay a {
 	position: absolute;
-	top: 50%;
-	left: 50%;
 	background-color: #F5F5F5;
-	width: 40px !important;
-	height: 40px !important;
-	margin: -28px 0 0 -44px;
+	width: 100% !important;
+	height: 100% !important;
 	font-size: 18px;
 	line-height: 40px;
 	text-align: center;
 	color: #444;
-	border-radius: 50%;
 	-webkit-backface-visibility: hidden;
+}
+
+.portfolio-overlay h4{
+	font-weight: 200;
+	font-size: 18px;
+	margin: auto 15px;
 }
 
 body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-overlay a {
@@ -4634,11 +4637,17 @@ body.device-touch.device-xs .portfolio-notitle .portfolio-overlay { display: non
 /* Portfolio Single
 -----------------------------------------------------------------*/
 
-.portfolio-single {}
+.portfolio-single {
+	margin: 0 auto 20px auto !important;
+	width: 100%;
+}
 
 
 /* Portfolio Single - Image
 -----------------------------------------------------------------*/
+.portfolio-single-image {
+	margin: 0 auto 20px auto !important;
+}
 
 .portfolio-single-image > a,
 .portfolio-single-image .slide a,
@@ -4775,7 +4784,7 @@ body.device-touch.device-xs .portfolio-notitle .portfolio-overlay { display: non
 }
 
 .portfolio-meta li {
-	margin: 10px 0;
+	margin: 6px 0;
 	color: #666;
 }
 
@@ -8546,7 +8555,7 @@ body:not(.device-touch) .on-hover.i-overlay {
 
 .social-icon {
 	margin: 0 auto;
-	width: 90%;
+	width: inherit;
 	height: inherit;
 	line-height: 38px !important;
 	color: #555;
@@ -9935,9 +9944,11 @@ body:not(.device-touch) .team-overlay {
 	vertical-align: middle;
 }
 
-.social-icon h3 {
+.social-icon h3, 
+.social-icon h4 {
 	position: relative;
 	display: inline-block;
+	margin: auto 15px;
 	top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -9979,8 +9990,6 @@ body:not(.device-touch) .team-overlay {
 .team:not(.team-list) .social-icon {
 	display: inline-block;
 	float: none;
-	margin-left: 6px;
-	margin-right: 6px;
 }
 
 
