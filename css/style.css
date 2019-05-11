@@ -577,7 +577,7 @@ span.middot {
 .section {
 	position: relative;
 	margin: 60px 0;
-	padding: 60px 0;
+	padding: 40px 0;
 	background-color: initial;
 	overflow: hidden;
 }
@@ -4650,6 +4650,10 @@ body.device-touch.device-xs .portfolio-notitle .portfolio-overlay { display: non
 	width: 100%;
 }
 
+.related-works {
+	font-size: 22px; 
+	letter-spacing: 1px;
+}
 
 /* Portfolio Single - Image
 -----------------------------------------------------------------*/
