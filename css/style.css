@@ -678,13 +678,17 @@ body.stretched .container-fullwidth {
 	display: block;
 	position: relative;
 	margin-right: 4%;
-	margin-bottom: 50px;
 	float: left;
 }
 
 .col_full {
 	clear: both;
 	float: none;
+}
+
+.col_full_text {
+	margin: 0 auto !important;
+	width: 100% !important;
 }
 
 .col_last {
