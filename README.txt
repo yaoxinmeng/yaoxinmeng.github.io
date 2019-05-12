@@ -1,5 +1,5 @@
 Fixes required:
 
- - Rename hobbies to interests?
- - Projects pages
- - host images, vids online (github has no space)
+ - host PSA vid demos on youtube
+ - get screenshots of PSA game
+ - get poster for milkwatch
