@@ -6629,7 +6629,12 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
 /* ----------------------------------------------------------------
 	Buttons
 -----------------------------------------------------------------*/
-
+.button-align {
+	flex-basis: 50%;
+	flex-grow: 0;
+	flex-shrink: 0;
+	max-width: 50%;
+}
 
 .button {
 	display: inline-block;
@@ -6637,7 +6642,7 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
 	cursor: pointer;
 	outline: none;
 	white-space: nowrap;
-	margin: 30px;
+	margin: 30px 10px;
 	padding: 0 22px;
 	font-size: 14px;
 	height: 40px;

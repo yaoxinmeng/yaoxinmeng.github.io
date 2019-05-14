@@ -3,3 +3,5 @@ Fixes required:
  - host PSA vid demos on youtube
  - get screenshots of PSA game
  - get poster for milkwatch
+ - change text length for chinese flute
+ - edit about me text
