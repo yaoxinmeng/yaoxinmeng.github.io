@@ -751,7 +751,7 @@ html[xmlns] .slider-wrap {display: block;}
 	position: absolute;
 	z-index: 10;
 	text-align: center;
-	top: 14px;
+	bottom: 14px;
 	right: 10px;
 	margin: 0;
 }
