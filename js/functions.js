@@ -34,7 +34,17 @@ $.fn.doOnce = function( func ) {
 		};
 }());
 
-
+function goToAnchor() { 
+    hash = document.location.hash;
+    if (hash !="") {
+        if (location.hash) {
+           	$('html, body').animate({scrollTop: $(hash).offset().top - 70}, 0);
+        }
+    }
+    else {
+        return false;
+    }
+}
 
 function debounce(func, wait, immediate) {
 	var timeout, args, context, timestamp, result;
@@ -3767,5 +3777,7 @@ var SEMICOLON = SEMICOLON || {};
 	$(document).ready( SEMICOLON.documentOnReady.init );
 	$window.on( 'load', SEMICOLON.documentOnLoad.init );
 	$window.on( 'resize', SEMICOLON.documentOnResize.init );
-
+	$( window ).on( "load", function() {
+        goToAnchor();
+    });
 })(jQuery);
