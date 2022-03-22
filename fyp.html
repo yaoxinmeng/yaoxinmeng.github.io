@@ -75,7 +75,7 @@
 			</div>
 
 		</header><!-- #header end -->
-		
+
 		<!-- Page Title
 		============================================= -->
 		<section id="page-title">
@@ -130,7 +130,7 @@
 							</div>
 						</div>
 						<!-- Portfolio Single - Meta End -->
-						
+
 					</div>
 
 					<!-- Portfolio Single Content
@@ -141,7 +141,7 @@
 						============================================= -->
 						<div class="col_half nobottommargin">
 							<p>
-								My Final Year Project aims to reconstruct the 3D model of room architecture from photographic images, specifically focusing on extracting the relevant structural edges in photographs. This has always been 
+								My Final Year Project aims to reconstruct the 3D model of room architecture from photographic images, specifically focusing on extracting the relevant structural edges in photographs. This has always been
 								the greatest challenge in the process because traditional deterministic approaches to the problem, such as the Canny Edge Detector, have been unable to isolate structural edges from non-structural edges, expecially in images where much noise is present. As such, machine learning is proposed as a possible alternative for detecting structural edges in photographic images.
 								<br><br>In recent years, there have been huge improvements in image processing capabilities. In particular, Fully Convolutional Networks (FCN) have gained immense popularity in image segmentation projects. By classifying each pixel as belonging to a structural edge or not, a FCN can generate a mask that predicts the location, size and shape of structural edges. For this project, I adapted the U-Net model and implemented it using PyTorch.
 							</p>
@@ -150,7 +150,7 @@
 						<div class="col_half col_last nobottommargin">
 							<p>
 								Since no similar projects have previously been done, it was difficult to find relevant labelled datasets. Eventually, I had to manually label images from the LSUN dataset. In order to speed up the labelling process, I created a custom labelling tool that was designed particularly for edge-labelling purposes. After augmenting the dataset to get around 20,000 labelled images, the model is trained over 50 epochs.
-								<br><br>With some post-processing to the output mask and applying Hough Transform, the equation of each line that represents an edge can be determined. Using this result, a regression can be conducted to create a skeleton of the 3D structure. Through this project, I have learnt the theories behind machine learning, particularly in the field of computer vision. 
+								<br><br>With some post-processing to the output mask and applying Hough Transform, the equation of each line that represents an edge can be determined. Using this result, a regression can be conducted to create a skeleton of the 3D structure. Through this project, I have learnt the theories behind machine learning, particularly in the field of computer vision.
 							</p>
 						</div>
 						<!-- Portfolio Single - Description End -->
@@ -171,7 +171,43 @@
 							<div class="iportfolio">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="images/projects/mechatronics.jpg" alt="Mechatronics">
+										<img src="images/projects/dysonSG.jpg" alt="">
+									</a>
+									<div class="portfolio-overlay">
+										<a href="dysonsg.html" class="social-icon" title="Dyson SG">
+											<h4>My very first job as a graduate engineer in the Dyson Global Product Verification and Testing Team.</h4>
+										</a>
+									</div>
+								</div>
+								<div class="portfolio-desc">
+									<h3>Dyson SG</h3>
+								</div>
+							</div>
+						</div>
+
+						<!-- <div class="oc-item">
+							<div class="iportfolio">
+								<div class="portfolio-image">
+									<a href="portfolio-single.html">
+										<img src="images/projects/pytorch.jpg" alt="fyp">
+									</a>
+									<div class="portfolio-overlay">
+										<a href="fyp.html" class="social-icon" title="Final Year Project">
+											<h4>A project to reconstruct the 3D model of room architecture from photographs.</h4>
+										</a>
+									</div>
+								</div>
+								<div class="portfolio-desc">
+									<h3>Final Year Project</h3>
+								</div>
+							</div>
+						</div> -->
+
+						<div class="oc-item">
+							<div class="iportfolio">
+								<div class="portfolio-image">
+									<a href="portfolio-single.html">
+										<img src="images/projects/mechatronics.jpg" alt="">
 									</a>
 									<div class="portfolio-overlay">
 										<a href="mechatronics.html" class="social-icon" title="Mechatronics">
@@ -189,7 +225,7 @@
 							<div class="iportfolio">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="images/projects/nickel.jpg" alt="Open Imagination">
+										<img src="images/projects/nickel.jpg" alt="">
 									</a>
 									<div class="portfolio-overlay">
 										<a href="nickel.html" class="social-icon" title="Nickel Feeder">
@@ -207,7 +243,7 @@
 							<div class="iportfolio">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="images/projects/dtd.jpg" alt="Design Thinking and Doing">
+										<img src="images/projects/dtd.jpg" alt="">
 									</a>
 									<div class="portfolio-overlay">
 										<a href="dtd.html" class="social-icon" title="Design Thinking and Doing">
@@ -225,7 +261,7 @@
 							<div class="iportfolio">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="images/projects/dyson.jpg" alt="Dyson Internship">
+										<img src="images/projects/dyson.jpg" alt="">
 									</a>
 									<div class="portfolio-overlay">
 										<a href="dyson.html" class="social-icon" title="Dyson Internship">
@@ -243,7 +279,7 @@
 							<div class="iportfolio">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="images/projects/design.jpg" alt="Industrial Design">
+										<img src="images/projects/design.jpg" alt="">
 									</a>
 									<div class="portfolio-overlay">
 										<a href="industrialdesign.html" class="social-icon" title="Industrial Design">
@@ -261,7 +297,7 @@
 							<div class="iportfolio">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="images/projects/robobrawl.jpg" alt="Robobrawl">
+										<img src="images/projects/robobrawl.jpg" alt="">
 									</a>
 									<div class="portfolio-overlay">
 										<a href="robobrawl.html" class="social-icon" title="Robobrawl">
@@ -279,7 +315,7 @@
 							<div class="iportfolio">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="images/projects/PSA.jpg" alt="PSA GAME-IT Challenge">
+										<img src="images/projects/PSA.jpg" alt="">
 									</a>
 									<div class="portfolio-overlay">
 										<a href="psa.html" class="social-icon" title="PSA GAME-IT Challenge">
@@ -297,7 +333,7 @@
 							<div class="iportfolio">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="images/projects/milkwatch.jpg" alt="Milkwatch">
+										<img src="images/projects/milkwatch.jpg" alt="">
 									</a>
 									<div class="portfolio-overlay">
 										<a href="milkwatch.html" class="social-icon" title="Milkwatch">
